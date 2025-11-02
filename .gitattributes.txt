@@ -1,0 +1,5 @@
+# 文本文件统一使用LF换行符，提交时不转换
+* text=auto eol=lf
+# 二进制文件（如图片、字体）不转换换行符
+*.png binary
+*.woff2 binary
